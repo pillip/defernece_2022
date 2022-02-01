@@ -16,6 +16,8 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- jQuery-->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -28,8 +30,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">일정 소개</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">발표 자료</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#timetable">일정 소개</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">연사 소개</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">NFT</a></li>
                     </ul>
                 </div>
@@ -85,11 +87,170 @@
                 </div>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+        <!-- Timetable-->
+        <section class="page-section" id="timetable">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <span class="section-title"><div class="upper-box"></div>일정 소개 및 발표 자료</span>
+                </div>
+                
+                <table class="timetable">
+                    <thead>
+                      <tr>
+                        <th colspan="3">Opening Part</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="time-cell">11:00 - 11:10</th>
+                        <td class="title-cell">Opening</td>
+                        <td class="button-cell"></td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">11:10 - 11:40</th>
+                        <td class="title-cell">Keynote Speech</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="timetable">
+                    <thead>
+                      <tr>
+                        <th colspan="3">Part 01 블록체인, 기술을 말하다</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="time-cell">11:40 - 12:10</th>
+                        <td class="title-cell">이더리움 코어팀 | 이더리움2.0: 샤딩의 한계 및 확장성 솔루션 연구 방향</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">12:10 - 12:40</th>
+                        <td class="title-cell">양화대교 | 브리지 정보제공 및 평가/비교 플랫폼 제작</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">12:40 - 13:10</th>
+                        <td class="title-cell">토니토니 스타크 | 스타크웨어의 레이어2 확장성 솔루션과 응용사례 분석</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">13:10 - 13:40</th>
+                        <td class="title-cell">Keynote Speech</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">13:40 - 14:10</th>
+                        <td class="title-cell">Panel Discussion | 블록체인 트릴레마는 해결될 수 있는가? 불가능하다면 무엇을 우선시할 것인가?</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">14:10 - 15:00</th>
+                        <td class="title-cell">Networking Time 및 Break Time</td>
+                        <td class="button-cell"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="timetable">
+                    <thead>
+                      <tr>
+                        <th colspan="3">Part 02 실생활과 만난 블록체인</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="time-cell">15:00 - 15:30</th>
+                        <td class="title-cell">Keynote Speech</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">15:30 - 16:00</th>
+                        <td class="title-cell">궁극의 랜딩 프로토콜 | Bok Lee: a fixed-rate, auto-deleveraging lending protocol</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">16:00 - 16:30</th>
+                        <td class="title-cell">OrderBank | AMM Dex 유동성을 활용한 탈중앙화된 지정가 거래</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">16:30 - 17:00</th>
+                        <td class="title-cell">P2E 원정대 | P2E market analytics</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th class="time-cell">17:00 - 17:30</th>
+                        <td class="title-cell">Panel Discussion | What is the next X2E?</td>
+                        <td class="button-cell">
+                            <i class="fa fa-download" style="color:#1a1d4c; width:1.8rem; height:1.8rem; cursor: pointer;" onClick="$('#timetable_modal').modal('show');"></i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="timetable">
+                    <thead>
+                      <tr>
+                        <th colspan="3">Closing Part</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="time-cell">17:30 - 17:40</th>
+                        <td class="title-cell">Closing</td>
+                        <td class="button-cell"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </section>
+        <!-- Timetable Modal -->
+        <div id="timetable_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">2022 DE-FERENCE</h4>
+                </div>
+                <div class="modal-body">
+                <p>발표 자료는 행사 전날 공개될 예정입니다.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" onClick="$('#timetable_modal').modal('hide');">Close</button>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row text-center">
@@ -117,15 +278,6 @@
                         <h4 class="my-3">Web Security</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">

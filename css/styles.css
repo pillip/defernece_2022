@@ -11301,12 +11301,16 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 9rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 4.6rem;
+
+  font-family: 'NanumSquare';
+  font-weight: 800;
+  font-size: 3.125rem;
+  text-align: center; 
+  color: #24377c;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11916,6 +11920,90 @@ section#contact form#contactForm :-ms-input-placeholder {
   height:1.875rem;
 }
 
+.section-title {
+  margin-bottom: 4.6rem;
+
+  font-family: 'NanumSquare';
+  font-weight: 800;
+  font-size: 3.125rem;
+  text-align: center; 
+  color: #24377c; 
+
+  display:flex;
+  justify-content: center;
+}
+
+.upper-box {
+  width:1.375rem;
+  height:1.375rem;
+  background-color: #24377c;
+  margin-right:0.5rem;
+}
+
+.timetable {
+  margin-bottom:3rem;
+
+  font-family: 'NanumSquare';
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  color: #1a1d4c; 
+
+  width:100%;
+}
+
+.timetable thead {
+  background-color: #1a1d4c;
+  color:#ffffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-top:0.3rem;
+  padding-bottom:0.3rem;
+  height:3rem;
+}
+
+.timetable tbody tr {
+  height: 2.5rem;
+  border-bottom: solid 1px #1a1d4c;
+}
+
+.time-cell {
+  font-weight: 800;
+  min-width:2.5rem;
+  width:15%;
+}
+
+.title-cell {
+  text-align: left;
+}
+
+.button-cell {
+  width:3rem;
+}
+
+.modal-title {
+  font-family: 'NanumSquare';
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1a1d4c; 
+}
+
+.modal-body {
+  font-family: 'NanumSquare';
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  color: #1a1d4c; 
+}
+
+.modal-footer {
+  font-family: 'NanumSquare';
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  color: #1a1d4c;  
+}
 
 
 @media (max-width: 768px) {
