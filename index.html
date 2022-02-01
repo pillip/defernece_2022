@@ -10,9 +10,10 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -58,10 +59,30 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
+            <img class="header-deco" src="assets/img/header-deco.png"/>
             <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="header-tickers"></div>
+                <div class="header-buttons">
+                    <button class="external-link-button white-filled-button">게더타운 사전지원</button>
+                    <button class="external-link-button">유튜브 생중계 바로가기</button>
+                    <button class="external-link-button">게더타운 입장하기</button>
+                </div>
+                <div class="header-covid">
+                    <p>COVID-19의 확산 방지 등을 위해 DE-FERENCE 2022의 오프라인 참석은 사전 초대된 분들만 가능하며</p>
+                    <p>일반 참가자 분들은 온라인 유튜브와 게더타운을 통해 함께하실 수 있습니다.</p>
+                </div>
+                <div class="header-youtube">
+                    <div class="youtube-title">
+                        <i class="fab fa-youtube" style="color:red; width:4.78rem; height:3.375rem;"></i>
+                        <span>Decipher 소개영상</span>
+                    </div>
+                    <style>
+                        .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+                    </style>
+                    <div class='embed-container'>
+                        <iframe src='https://www.youtube.com/embed/0Ay-IqbyR7k' frameborder='0' allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- Services-->
@@ -628,3 +649,4 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
+
