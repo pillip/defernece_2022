@@ -12204,6 +12204,30 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+.sponsor-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 6.43rem;
+  margin-top: -1rem;
+}
+
+.sponsor-main-logo {
+  width: 29%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height:auto;
+}
+
+.sponsor-logo {
+  max-width:18%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height:auto;
+  margin-bottom:2rem;
+}
+
 @media (max-width: 768px) {
   html {
     font-size:12px;
