@@ -12228,6 +12228,63 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-bottom:2rem;
 }
 
+.nft-section {
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position:relative;
+}
+
+.nft-title {
+  font-family: 'NanumSquare';
+  font-weight: 800;
+  font-size: 3.125rem;
+  text-align: left; 
+  color: #ffffff; 
+}
+
+.nft-description {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+  font-size: 1.875rem;
+  text-align: left; 
+  color: #ffffff;  
+  line-height: 1.67;
+}
+
+.nft-ticket {
+  width:100%;
+  height:auto;
+}
+
+.nft-ticket-title {
+  font-family: 'NanumSquare';
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: left; 
+  color: #ffffff; 
+}
+
+.nft-ticket-description {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left; 
+  color: #ffffff;  
+}
+
+.nft-ticket-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left:3rem;
+}
+
 @media (max-width: 768px) {
   html {
     font-size:12px;
