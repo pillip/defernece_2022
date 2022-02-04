@@ -12221,6 +12221,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-left: 2%;
   margin-right: 2%;
   height:auto;
+  max-height: 8.1125rem;
 }
 
 .sponsor-logo {
@@ -12229,6 +12230,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: 2%;
   height:auto;
   margin-bottom:2rem;
+  max-height: 3.1875rem;
 }
 
 .nft-section {
